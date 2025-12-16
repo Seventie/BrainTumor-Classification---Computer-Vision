@@ -2,7 +2,7 @@
 
 A medical imaging project that compares classical computer vision techniques with modern deep learning for automated brain tumor detection from MRI scans.
 
-[![Python](https://img.shields.io/badge/Python-3.11-atestcy-96.23%25-
+
 ***
 
 ## 📋 Table of Contents
