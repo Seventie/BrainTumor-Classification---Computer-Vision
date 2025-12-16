@@ -238,33 +238,8 @@ jupyter notebook
 
 ### **Performance Comparison**
 
-| Approach | Accuracy | Key Feature |
-|----------|----------|-------------|
-| Random Forest + Features | ~52% | Traditional ML baseline |
-| XGBoost + Features | ~52% | Gradient boosting |
-| **VGGNet-16** | **96.23%** | ✅ Best performance |
-| GoogLeNet | TBD | Inception modules |
 
-### **VGGNet Training Progress**
-
-| Epoch | Train Accuracy | Validation Accuracy |
-|-------|----------------|---------------------|
-| 1/5 | 91.10% | 93.53% |
-| 2/5 | 94.48% | 95.36% |
-| 3/5 | 95.65% | 95.62% |
-| 4/5 | 96.38% | 95.81% |
-| 5/5 | **97.75%** | **96.23%** |
-
-### **Classification Metrics (VGGNet)**
-
-- **Accuracy**: 96.23%
-- **Precision**: 0.78 (78% of tumor predictions are correct)
-- **Recall**: 0.73 (Detects 73% of actual tumors)
-- **F1-Score**: 0.75
-
-### **Key Takeaways**
-
-✅ Deep learning outperforms classical methods by **44%**  
+✅ Deep learning outperforms classical methods by **30%**  
 ✅ Transfer learning accelerates training dramatically  
 ✅ Minimal overfitting (only 1.5% gap between train/val)  
 ✅ Handles class imbalance effectively  
